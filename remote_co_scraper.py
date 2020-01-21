@@ -45,7 +45,7 @@ for i in range(1,2):
 		company = company.replace("\\n","")
 		company = company.replace("\\t","")
 		company = company.replace(" ","")
-		print(company)
+		#print(company)
 		if(len(company.strip())>0):
 			company=company.strip()
 			#company = company.encode('utf-8')
