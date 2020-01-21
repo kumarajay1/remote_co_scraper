@@ -5,4 +5,5 @@ sleep 3
 echo "Scraped the job details"
 python3 ./remote_co_scraper/insert_into_db.py
 echo "Inserted into DB"
-rm -rf remote_co_scraper
+rm -rf remote_co_scraper/
+
