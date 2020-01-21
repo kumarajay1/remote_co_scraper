@@ -1,5 +1,5 @@
 export PATH=$PATH:/home/ubuntu/angle_co_scrape
-echo "scraper starting"
+echo "scraper started"
 python3 ./remote_co_scraper/remote_co_scraper.py 
 sleep 3 
 echo "Scraped the job details"
