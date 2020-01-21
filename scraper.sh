@@ -1,3 +1,4 @@
+chmod 777 ./remote_co_scraper/geckodriver
 export PATH=$PATH:/home/ubuntu/remote_co_scraper
 echo "scraper starting"
 python3 ./remote_co_scraper/remote_co_scraper.py 
