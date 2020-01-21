@@ -1,7 +1,7 @@
-export PATH=$PATH:/home/ubuntu/angle_co_scrape
-echo "scraper started"
-python3 ./remote_co_scraper/remote_co_scraper.py 
-sleep 3 
-echo "Scraped the job details"
-python3 ./remote_co_scraper/insert_into_db.py
-echo "Inserted into DB" 
+sudo apt-get install python3 -y
+sudo apt-get install python3-pip
+sudo pip3 install pandas
+sudo pip3 install selenium
+sudo pip3 install beautifulsoup4
+sudo pip3 install lxml
+sudo pip3 install cassandra-driver
