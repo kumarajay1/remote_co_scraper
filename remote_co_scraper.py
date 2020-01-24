@@ -29,7 +29,7 @@ for i in range(1,2):
 	names=[]
 	des=[]
 	webs=[]
-	browser.get("https://remote.co/remote-jobs/accounting/")
+	browser.get("https://remote.co/remote-jobs/customer-service/")
 	#pdb.set_trace()
 	#pre = browser.find_ele  ment_by_name("json").text
 	#data = json.loads(pre)
