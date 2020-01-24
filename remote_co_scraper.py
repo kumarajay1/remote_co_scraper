@@ -79,10 +79,10 @@ for i in range(1,2):
 			real_dates.append(date)
 	#print(real_dates)
 	print(len(real_dates))	
-
-
-	links = tree.xpath('/html/body/main/div/div/div/div/div/div/div/a/@href')
-	#print(links)
+	
+	links = tree.xpath('/html/body/main/div/div/div/div[4]/div/div/div/a/@href')
+	if(len(links)==0):
+		links = tree.xpath('/html/body/main/div/div/div/div[5]/div/div/div/a/@href')
 	print(len(links))
 
 	#Description
