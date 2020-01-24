@@ -81,7 +81,7 @@ for i in range(1,2):
 	print(len(real_dates))	
 
 
-	links = tree.xpath('/html/body/main/div/div/div/div[4]/div/div/div/a/@href')
+	links = tree.xpath('/html/body/main/div/div/div/div/div/div/div/a/@href')
 	#print(links)
 	print(len(links))
 
@@ -98,13 +98,13 @@ for i in range(1,2):
 			#print(html_source)
 			tree = html.fromstring(html_source)
 			try:
-				a_link = tree.xpath('/html/body/main/div/div/div[1]/div[2]/div/div[1]/div[4]/a/@href')[0]
+				a_link = tree.xpath('/html/body/main/div/div/div/div/div/div/div/a/@href')[0]
 				#print(a_link)
 				a_links.append(a_link)
 			except :
 				a_links.append(" ")
 			#json_obj = json.loads(tree.xpath('//div[@id="json"]/text()')[0])
-			des = tree.xpath('/html/body/main/div/div/div[1]/div[2]/div/div[1]/div[3]')[0]
+			des = tree.xpath('/html/body/main/div/div/div/div/div/div/div[3]')[0]
 			des = str(etree.tostring(des))
 			des = BeautifulSoup(des, "lxml").text
 			des = des.replace("\\n","")
