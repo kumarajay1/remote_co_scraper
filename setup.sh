@@ -1,7 +1,5 @@
 sudo apt-get update 
-export LC_ALL="en_US.UTF-8"
-export LC_CTYPE="en_US.UTF-8"
-sudo dpkg-reconfigure locales
+sudo update-locale LANG=en_US.UTF-8
 echo "update done**************"
 sleep 10
 sudo apt-get install python3 -y
