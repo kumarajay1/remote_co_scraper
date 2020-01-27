@@ -1,6 +1,9 @@
 sudo apt-get update 
-sudo update-locale LANG=en_US.UTF-8
 echo "update done**************"
+sudo locale-gen "en_US.UTF-8"
+sudo update-locale LANG=en_US.UTF-8
+echo "Locale **************"
+
 sleep 10
 sudo apt-get install python3 -y
 echo "py3**************"
