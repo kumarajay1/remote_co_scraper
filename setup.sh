@@ -1,5 +1,5 @@
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get update 
+sudo apt-get upgrade -y
 sleep 10
 sudo apt-get install python3 -y
 sudo apt-get install jq -y
