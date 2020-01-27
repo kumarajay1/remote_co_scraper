@@ -1,7 +1,7 @@
 sudo apt-get update 
 echo "update done**************"
 sudo locale-gen "en_US.UTF-8"
-sudo update-locale LANG=en_US.UTF-8
+sudo dpkg-reconfigure --frontend noninteractive locales
 echo "Locale **************"
 
 sleep 10
