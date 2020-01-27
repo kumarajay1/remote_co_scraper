@@ -8,6 +8,7 @@ sleep 10
 sudo apt-get install python3 -y
 echo "py3**************"
 sudo apt-get install jq -y
+sudo apt-get update 
 sudo apt-get install python3-setuptools -y
 echo "py3 setup tools**************"
 sudo apt-get install python3-pip -y
